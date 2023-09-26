@@ -1,0 +1,39 @@
+/* 
+----------DESIGN SYSTEM--------
+  CONTAINER:
+    width:1320PX
+
+  COLOR:
+    Primary Color:#FFFFFF
+    Seconday Color:#FFC178
+    Tertiary Color:#000000
+  
+  FONT FAMILY:
+    font-family:Open Sans
+    heading:96/88/64/48/36/22/20/19/18/17/15px
+    font-weight:400/500/600/700
+
+  SPACING:
+    line-height:100/
+    letter-spacing: -0.3/-0.2/7px
+    gutter:24px
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+/* ---------CONTAINER--------- */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

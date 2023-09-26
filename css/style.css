@@ -1,0 +1,306 @@
+/* ---------Global Reset--------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #000;
+}
+
+/* --------------HEADER SECTION----------- */
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  padding-top: 24px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+
+.nav-items {
+  list-style: none;
+
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  gap: 56px;
+}
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: rgb(0, 0, 0);
+  /* border-bottom: 2px solid black; */
+}
+
+.active.nav-link {
+  color: rgb(0, 0, 0);
+}
+
+/* -------------HERO SECTION------------ */
+
+.section-hero {
+  background-image: linear-gradient(
+      315deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.46) 100%
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+    url(../images/hero-img.jpg);
+  background-size: cover;
+  padding: 460px 0;
+  margin-bottom: 286px;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.heading-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  color: #ffc178;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+
+.heading-primary--main {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #fff;
+}
+
+.heading-primary--sub {
+  display: block;
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 100px;
+  color: #fff;
+}
+
+/* -------------HOLIDAY SECTION------------ */
+.section-holiday {
+  margin-bottom: 296px;
+}
+.holiday-container {
+  display: flex;
+  /* gap: 56px; */
+}
+
+.holiday-img {
+  width: 582px;
+  height: 703px;
+  margin-right: 48px;
+}
+
+.holiday-container--text {
+  margin-top: 48px;
+}
+.holiday-subtitle {
+  font-size: 18px;
+  color: #fbd784;
+  letter-spacing: 6px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.heading-secondary {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.holiday-paragraph {
+  font-size: 14px;
+  color: #fff;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 66px;
+}
+
+.holiday-link:link,
+.holiday-link:visited {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+
+/* -------------CLIMB SECTION------------ */
+
+.section-climb {
+  margin-bottom: 296px;
+}
+
+.climb-box {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(360deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+    url(../images/climbs.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.climb-text--box {
+  /* width: 932px; */
+  margin: 0 auto;
+  padding: 560px 195px 32px 195px;
+
+  text-align: center;
+}
+.climb-subtitle {
+  font-size: 18px;
+  color: #fbd784;
+  letter-spacing: 6px;
+  font-weight: 700;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+}
+
+.climb-text {
+  font-size: 15px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+/* -------------CULTURAL SECTION------------ */
+
+.section-culture {
+  margin-bottom: 199px;
+}
+
+/* -------------FOOTER SECTION------------ */
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.footer-top--btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer-logo {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+
+.footer-top--text {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  color: #fff;
+}
+
+.footer-btn:link,
+.footer-btn:visited {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  padding: 18px 72px;
+  border-radius: 10px;
+  background-color: #ffa343;
+}
+
+.heading-tertiary {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: #fff;
+  margin-bottom: 36px;
+  width: 415px;
+}
+
+.footer-terms {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: #fff;
+  margin-bottom: 48px;
+}
+
+.icon-box {
+  display: flex;
+  gap: 16px;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.23px;
+  color: #ffd1a0;
+  margin-bottom: 32px;
+}
+
+.service-items {
+  list-style: none;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  gap: 64px;
+}
+
+/* ----------------COPYRIGHT SECTION----------- */
+
+.copyright {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 32px;
+  margin-top: 96px;
+  color: #fff;
+  margin-bottom: 32px;
+}
